@@ -1,0 +1,235 @@
+2023-11-28T10:41:26+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in F:\xampp\htdocs\wp\wp-content\plugins\warehouses\warehouses.php:47
+Stack trace:
+#0 F:\xampp\htdocs\wp\wp-content\plugins\warehouses\warehouses.php(47): in_array(55, '')
+#1 F:\xampp\htdocs\wp\wp-admin\includes\template.php(1456): yss_custom_post_cat(Object(WP_Post), Array)
+#2 F:\xampp\htdocs\wp\wp-admin\edit-form-advanced.php(714): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#3 F:\xampp\htdocs\wp\wp-admin\post-new.php(75): require('F:\\xampp\\htdocs...')
+#4 {main}
+  thrown in F:\xampp\htdocs\wp\wp-content\plugins\warehouses\warehouses.php on line 47
+
+2023-11-28T10:42:20+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in F:\xampp\htdocs\wp\wp-content\plugins\warehouses\warehouses.php:58
+Stack trace:
+#0 F:\xampp\htdocs\wp\wp-content\plugins\warehouses\warehouses.php(58): in_array(46, '')
+#1 F:\xampp\htdocs\wp\wp-admin\includes\template.php(1456): yss_custom_post_cat(Object(WP_Post), Array)
+#2 F:\xampp\htdocs\wp\wp-admin\edit-form-advanced.php(714): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#3 F:\xampp\htdocs\wp\wp-admin\post-new.php(75): require('F:\\xampp\\htdocs...')
+#4 {main}
+  thrown in F:\xampp\htdocs\wp\wp-content\plugins\warehouses\warehouses.php on line 58
+
+2023-11-28T10:42:24+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in F:\xampp\htdocs\wp\wp-content\plugins\warehouses\warehouses.php:58
+Stack trace:
+#0 F:\xampp\htdocs\wp\wp-content\plugins\warehouses\warehouses.php(58): in_array(46, '')
+#1 F:\xampp\htdocs\wp\wp-admin\includes\template.php(1456): yss_custom_post_cat(Object(WP_Post), Array)
+#2 F:\xampp\htdocs\wp\wp-admin\edit-form-advanced.php(714): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#3 F:\xampp\htdocs\wp\wp-admin\post-new.php(75): require('F:\\xampp\\htdocs...')
+#4 {main}
+  thrown in F:\xampp\htdocs\wp\wp-content\plugins\warehouses\warehouses.php on line 58
+
+2023-11-28T11:53:16+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "mt_settings_page" not found or invalid function name in F:\xampp\htdocs\wp\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 F:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 F:\xampp\htdocs\wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 F:\xampp\htdocs\wp\wp-admin\admin.php(259): do_action('admin_page_test...')
+#3 {main}
+  thrown in F:\xampp\htdocs\wp\wp-includes\class-wp-hook.php on line 324
+
+2023-11-28T12:11:57+00:00 CRITICAL Uncaught TypeError: strip_tags(): Argument #1 ($string) must be of type string, array given in F:\xampp\htdocs\wp\wp-includes\formatting.php:2274
+Stack trace:
+#0 F:\xampp\htdocs\wp\wp-includes\formatting.php(2274): strip_tags(Array)
+#1 F:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(324): sanitize_title_with_dashes(Array, Array, 'query')
+#2 F:\xampp\htdocs\wp\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#3 F:\xampp\htdocs\wp\wp-includes\formatting.php(2235): apply_filters('sanitize_title', Array, Array, 'query')
+#4 F:\xampp\htdocs\wp\wp-includes\formatting.php(2255): sanitize_title(Array, '', 'query')
+#5 F:\xampp\htdocs\wp\wp-includes\class-wp-query.php(2139): sanitize_title_for_query(Array)
+#6 F:\xampp\htdocs\wp\wp-includes\class-wp-query.php(3824): WP_Query->get_posts()
+#7 F:\xampp\htdocs\wp\wp-includes\class-wp.php(696): WP_Query->query(Array)
+#8 F:\xampp\htdocs\wp\wp-includes\class-wp.php(816): WP->query_posts()
+#9 F:\xampp\htdocs\wp\wp-includes\functions.php(1336): WP->main('')
+#10 F:\xampp\htdocs\wp\wp-blog-header.php(16): wp()
+#11 F:\xampp\htdocs\wp\index.php(17): require('F:\\xampp\\htdocs...')
+#12 {main}
+  thrown in F:\xampp\htdocs\wp\wp-includes\formatting.php on line 2274
+
+2023-11-28T12:33:54+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in F:\xampp\htdocs\wp\wp-content\plugins\warehouses\warehouses.php:102
+Stack trace:
+#0 F:\xampp\htdocs\wp\wp-content\plugins\warehouses\warehouses.php(102): in_array(60, NULL)
+#1 F:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(324): setwherqty_settings('')
+#2 F:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 F:\xampp\htdocs\wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 F:\xampp\htdocs\wp\wp-admin\admin.php(259): do_action('admin_page_test...')
+#5 {main}
+  thrown in F:\xampp\htdocs\wp\wp-content\plugins\warehouses\warehouses.php on line 102
+
+2023-11-28T12:37:52+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in F:\xampp\htdocs\wp\wp-content\plugins\warehouses\warehouses.php:107
+Stack trace:
+#0 F:\xampp\htdocs\wp\wp-content\plugins\warehouses\warehouses.php(107): in_array(60, NULL)
+#1 F:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(324): setwherqty_settings('')
+#2 F:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 F:\xampp\htdocs\wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 F:\xampp\htdocs\wp\wp-admin\admin.php(259): do_action('admin_page_test...')
+#5 {main}
+  thrown in F:\xampp\htdocs\wp\wp-content\plugins\warehouses\warehouses.php on line 107
+
+2023-11-28T12:38:19+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in F:\xampp\htdocs\wp\wp-content\plugins\warehouses\warehouses.php:110
+Stack trace:
+#0 F:\xampp\htdocs\wp\wp-content\plugins\warehouses\warehouses.php(110): in_array(60, NULL)
+#1 F:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(324): setwherqty_settings('')
+#2 F:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 F:\xampp\htdocs\wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 F:\xampp\htdocs\wp\wp-admin\admin.php(259): do_action('admin_page_test...')
+#5 {main}
+  thrown in F:\xampp\htdocs\wp\wp-content\plugins\warehouses\warehouses.php on line 110
+
+2023-11-28T13:00:54+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\single-product\meta.php:28
+Stack trace:
+#0 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1673): wc_get_template('single-product/...')
+#2 F:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(324): woocommerce_template_single_meta('')
+#3 F:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 F:\xampp\htdocs\wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#6 F:\xampp\htdocs\wp\wp-includes\template.php(792): require('F:\\xampp\\htdocs...')
+#7 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('F:\\xampp\\htdocs...', false)
+#8 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#9 F:\xampp\htdocs\wp\wp-includes\template-loader.php(106): include('F:\\xampp\\htdocs...')
+#10 F:\xampp\htdocs\wp\wp-blog-header.php(19): require_once('F:\\xampp\\htdocs...')
+#11 F:\xampp\htdocs\wp\index.php(17): require('F:\\xampp\\htdocs...')
+#12 {main}
+  thrown in F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\single-product\meta.php on line 28
+
+2023-11-28T13:01:18+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\single-product\meta.php:28
+Stack trace:
+#0 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1673): wc_get_template('single-product/...')
+#2 F:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(324): woocommerce_template_single_meta('')
+#3 F:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 F:\xampp\htdocs\wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#6 F:\xampp\htdocs\wp\wp-includes\template.php(792): require('F:\\xampp\\htdocs...')
+#7 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('F:\\xampp\\htdocs...', false)
+#8 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#9 F:\xampp\htdocs\wp\wp-includes\template-loader.php(106): include('F:\\xampp\\htdocs...')
+#10 F:\xampp\htdocs\wp\wp-blog-header.php(19): require_once('F:\\xampp\\htdocs...')
+#11 F:\xampp\htdocs\wp\index.php(17): require('F:\\xampp\\htdocs...')
+#12 {main}
+  thrown in F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\single-product\meta.php on line 28
+
+2023-11-28T13:01:48+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\single-product\meta.php:28
+Stack trace:
+#0 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1673): wc_get_template('single-product/...')
+#2 F:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(324): woocommerce_template_single_meta('')
+#3 F:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 F:\xampp\htdocs\wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#6 F:\xampp\htdocs\wp\wp-includes\template.php(792): require('F:\\xampp\\htdocs...')
+#7 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('F:\\xampp\\htdocs...', false)
+#8 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#9 F:\xampp\htdocs\wp\wp-includes\template-loader.php(106): include('F:\\xampp\\htdocs...')
+#10 F:\xampp\htdocs\wp\wp-blog-header.php(19): require_once('F:\\xampp\\htdocs...')
+#11 F:\xampp\htdocs\wp\index.php(17): require('F:\\xampp\\htdocs...')
+#12 {main}
+  thrown in F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\single-product\meta.php on line 28
+
+2023-11-28T13:02:02+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\single-product\meta.php:28
+Stack trace:
+#0 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1673): wc_get_template('single-product/...')
+#2 F:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(324): woocommerce_template_single_meta('')
+#3 F:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 F:\xampp\htdocs\wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#6 F:\xampp\htdocs\wp\wp-includes\template.php(792): require('F:\\xampp\\htdocs...')
+#7 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('F:\\xampp\\htdocs...', false)
+#8 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#9 F:\xampp\htdocs\wp\wp-includes\template-loader.php(106): include('F:\\xampp\\htdocs...')
+#10 F:\xampp\htdocs\wp\wp-blog-header.php(19): require_once('F:\\xampp\\htdocs...')
+#11 F:\xampp\htdocs\wp\index.php(17): require('F:\\xampp\\htdocs...')
+#12 {main}
+  thrown in F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\single-product\meta.php on line 28
+
+2023-11-28T13:04:52+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\single-product\meta.php:28
+Stack trace:
+#0 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1673): wc_get_template('single-product/...')
+#2 F:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(324): woocommerce_template_single_meta('')
+#3 F:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 F:\xampp\htdocs\wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#6 F:\xampp\htdocs\wp\wp-includes\template.php(792): require('F:\\xampp\\htdocs...')
+#7 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('F:\\xampp\\htdocs...', false)
+#8 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#9 F:\xampp\htdocs\wp\wp-includes\template-loader.php(106): include('F:\\xampp\\htdocs...')
+#10 F:\xampp\htdocs\wp\wp-blog-header.php(19): require_once('F:\\xampp\\htdocs...')
+#11 F:\xampp\htdocs\wp\index.php(17): require('F:\\xampp\\htdocs...')
+#12 {main}
+  thrown in F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\single-product\meta.php on line 28
+
+2023-11-28T13:07:59+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\single-product\meta.php:28
+Stack trace:
+#0 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1673): wc_get_template('single-product/...')
+#2 F:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(324): woocommerce_template_single_meta('')
+#3 F:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 F:\xampp\htdocs\wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#6 F:\xampp\htdocs\wp\wp-includes\template.php(792): require('F:\\xampp\\htdocs...')
+#7 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('F:\\xampp\\htdocs...', false)
+#8 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#9 F:\xampp\htdocs\wp\wp-includes\template-loader.php(106): include('F:\\xampp\\htdocs...')
+#10 F:\xampp\htdocs\wp\wp-blog-header.php(19): require_once('F:\\xampp\\htdocs...')
+#11 F:\xampp\htdocs\wp\index.php(17): require('F:\\xampp\\htdocs...')
+#12 {main}
+  thrown in F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\single-product\meta.php on line 28
+
+2023-11-28T13:13:03+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\single-product\meta.php:28
+Stack trace:
+#0 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1673): wc_get_template('single-product/...')
+#2 F:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(324): woocommerce_template_single_meta('')
+#3 F:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 F:\xampp\htdocs\wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#6 F:\xampp\htdocs\wp\wp-includes\template.php(792): require('F:\\xampp\\htdocs...')
+#7 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('F:\\xampp\\htdocs...', false)
+#8 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#9 F:\xampp\htdocs\wp\wp-includes\template-loader.php(106): include('F:\\xampp\\htdocs...')
+#10 F:\xampp\htdocs\wp\wp-blog-header.php(19): require_once('F:\\xampp\\htdocs...')
+#11 F:\xampp\htdocs\wp\index.php(17): require('F:\\xampp\\htdocs...')
+#12 {main}
+  thrown in F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\single-product\meta.php on line 28
+
+2023-11-28T13:13:24+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\single-product\meta.php:28
+Stack trace:
+#0 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1673): wc_get_template('single-product/...')
+#2 F:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(324): woocommerce_template_single_meta('')
+#3 F:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 F:\xampp\htdocs\wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#6 F:\xampp\htdocs\wp\wp-includes\template.php(792): require('F:\\xampp\\htdocs...')
+#7 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('F:\\xampp\\htdocs...', false)
+#8 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#9 F:\xampp\htdocs\wp\wp-includes\template-loader.php(106): include('F:\\xampp\\htdocs...')
+#10 F:\xampp\htdocs\wp\wp-blog-header.php(19): require_once('F:\\xampp\\htdocs...')
+#11 F:\xampp\htdocs\wp\index.php(17): require('F:\\xampp\\htdocs...')
+#12 {main}
+  thrown in F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\single-product\meta.php on line 28
+
+2023-11-28T13:14:24+00:00 CRITICAL Uncaught Error: Call to a member function get_sku() on null in F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\single-product\meta.php:28
+Stack trace:
+#0 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1673): wc_get_template('single-product/...')
+#2 F:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(324): woocommerce_template_single_meta('')
+#3 F:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 F:\xampp\htdocs\wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#6 F:\xampp\htdocs\wp\wp-includes\template.php(792): require('F:\\xampp\\htdocs...')
+#7 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('F:\\xampp\\htdocs...', false)
+#8 F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#9 F:\xampp\htdocs\wp\wp-includes\template-loader.php(106): include('F:\\xampp\\htdocs...')
+#10 F:\xampp\htdocs\wp\wp-blog-header.php(19): require_once('F:\\xampp\\htdocs...')
+#11 F:\xampp\htdocs\wp\index.php(17): require('F:\\xampp\\htdocs...')
+#12 {main}
+  thrown in F:\xampp\htdocs\wp\wp-content\plugins\woocommerce\templates\single-product\meta.php on line 28
+
